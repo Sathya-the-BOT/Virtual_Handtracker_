@@ -14,7 +14,7 @@ with col2:
      output_text_area=st.subheader("")
 
 # Configure Generative AI
-genai.configure(api_key="AIzaSyBQwzITbmVvfh0lh3N6aKr_O3uHOfboooI")
+genai.configure(api_key="") # Your gemini api goes here 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize video capture
